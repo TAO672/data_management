@@ -32,3 +32,4 @@ FROM wine;
 
 -- Continue with statistics of other features
 ## Data Visualization (using Python)
+[!chart1](pic/1.png)

@@ -99,8 +99,8 @@ from sklearn.metrics import accuracy_score, classification_report
 
 # Data preparation
 # Features and target variables
-X = data.drop('class', axis=1)  # 选择特征（除去目标变量 'class'）
-y = data['class']  # 目标变量 'class'
+X = data.drop('class', axis=1)  # Select Features（Remove the target variable 'class'）
+y = data['class']  # Target variable 'class'
 
 # Split the dataset (70% training, 30% testing)
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
